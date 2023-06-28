@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="icon" href="fevicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer">
+      <div class="time-display">
+        <div class="hours">00</div>
+        <div class="colon">:</div>
+        <div class="minutes">00</div>
+        <div class="colon">:</div>
+        <div class="seconds">00</div>
+        <div class="colon">:</div>
+        <div class="milliseconds">000</div>
+      </div>
+      <div class="buttons">
+        <button id="startBtn" class="btn btn-primary">Start</button>
+        <button id="pauseBtn" class="btn btn-secondary">Pause</button>
+        <button id="resetBtn" class="btn btn-danger">Reset</button>
+        <button id="lapBtn" class="btn btn-info">Lap</button>
+      </div>
+      <div class="lap-records">
+        <ul id="lapList"></ul>
+      </div>
+      <div class="set-timer">
+        <input type="number" id="hourInput" class="form-control" placeholder="Hours" min="0">
+        <input type="number" id="minuteInput" class="form-control" placeholder="Minutes" min="0">
+        <input type="number" id="secondInput" class="form-control" placeholder="Seconds" min="0">
+        <button id="setTimerBtn" class="btn btn-primary">Set Timer</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
