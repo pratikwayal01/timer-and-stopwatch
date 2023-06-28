@@ -1,0 +1,74 @@
+/* timer.css */
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-image: url("Race track img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.timer {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.time-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.time-display .colon {
+  font-size: 2rem;
+}
+
+.time-display div {
+  font-size: 4rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.buttons button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.lap-records {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.set-timer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-timer input {
+  width: 70px;
+  margin-right: 10px;
+}
